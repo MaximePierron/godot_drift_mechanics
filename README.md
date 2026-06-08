@@ -6,7 +6,7 @@ A from-scratch arcade vehicle simulation built on `RigidBody3D`, featuring per-w
 
 ## Demo
 
-> *(Replace with a GIF or short screen recording of the car drifting)*
+<img src="https://github.com/MaximePierron/godot_drift_mechanics/blob/master/Recording%202026-06-08%20152141.gif" alt="GIF of the car handling and drift behaviour">
 
 ---
 
@@ -28,8 +28,9 @@ Counter-steer detection applies a corrective yaw torque when the player steers i
 ## Project structure
 
 ```
-vehicle_controller.gd   — RigidBody3D subclass; main simulation loop
-raycast_wheel.gd        — Per-wheel node: suspension geometry, grip curve, motor flag
+raycast_car.gd          — RigidBody3D subclass; main simulation loop
+raycast_wheel.gd        — Per-wheel node: spring_strength, spring_damping, ...
+camera_3d_follow_car.gd — Camera code to always follow the car from a top behind perspective
 ```
 
 ---
