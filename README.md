@@ -6,7 +6,9 @@ A from-scratch arcade vehicle simulation built on `RigidBody3D`, featuring per-w
 
 ## Demo
 
-<img src="https://github.com/MaximePierron/godot_drift_mechanics/blob/master/Recording%202026-06-08%20152141.gif" alt="GIF of the car handling and drift behaviour">
+<p align="center">
+    <img src="https://github.com/MaximePierron/godot_drift_mechanics/blob/master/Recording%202026-06-08%20152141.gif" alt="GIF of the car handling and drift behaviour">
+</p>
 
 ---
 
